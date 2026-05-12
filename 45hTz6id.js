@@ -1,0 +1,1 @@
+var e=null;function t(t){{let e,n=!1;return()=>(n||=(e=t(),!0),e)}let n=Symbol(`isolated-state`);return()=>{let r=e?.getStore();if(!r)throw Error(`Isolated state accessed outside of runInIsolatedScope. Every SSR code path must execute inside the request scope set up by the section's server.ts.`);return r.has(n)||r.set(n,t()),r.get(n)}}export{t};

@@ -1,0 +1,1 @@
+var e=1.2,t=class{update(t){Object.assign(this,t),(typeof t.scale!=`number`||t.scale<=0)&&(this.scale=e)}};export{e as n,t};
