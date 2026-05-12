@@ -1,0 +1,1 @@
+var e=class{constructor(){this._canceled=!1,this._cancelPromise=new Promise(e=>this._cancelPromiseResolver=e)}get isCanceled(){return this._canceled}cancel(){this._canceled||(this._canceled=!0,this._cancelPromiseResolver())}untilCanceled(){return this._cancelPromise}assert(){if(this.isCanceled)throw Error(`Cancel token is canceled.`)}};export{e as t};

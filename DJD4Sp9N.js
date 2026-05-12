@@ -1,0 +1,1 @@
+import{D as e}from"./C0d46PVP.js";import{O as t,Y as n}from"./DRfnHkI0.js";function r({target:r,callback:i}){let a,o=n(()=>{s();let t=e(r);t&&(a=new ResizeObserver(i),a.observe(t))});function s(){a&&=(a.disconnect(),void 0)}return t(()=>{o(),s()}),{observer:a}}export{r as t};

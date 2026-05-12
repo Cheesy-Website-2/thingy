@@ -1,0 +1,1 @@
+function e(e,t,n){return Math.floor(e/t*10)/10+n}function t(t){return t>=1e9?e(t,1e9,`g`):t>=1e6?e(t,1e6,`m`):t>=1e3?e(t,1e3,`k`):t}function n(e,n){return e<n?e:t(e)}export{n,t};

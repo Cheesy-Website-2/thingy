@@ -1,0 +1,1 @@
+var e=/^(https?:\/\/)?((www\.)?(youtube\.com\/watch\?v=|youtu\.be\/|vimeo\.com\/)|m\.youtube\.com\/watch\?v=)([a-zA-Z0-9_-]+)\S*$/i,t=/^(https?:\/\/)?((www\.)?(youtube\.com\/watch\?v=|youtu\.be\/)|m\.youtube\.com\/watch\?v=)([a-zA-Z0-9_-]+)\S*$/i,n=/^(https?:\/\/)?(www\.)?(vimeo\.com\/)([a-zA-Z0-9_-]+)\S*$/i;export{n,t as r,e as t};

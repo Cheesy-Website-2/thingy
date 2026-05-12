@@ -1,0 +1,1 @@
+function e(e,t){return new Intl.NumberFormat(void 0,t).format(e||0)}export{e as t};

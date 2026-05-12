@@ -1,0 +1,1 @@
+import{c as e}from"./DQRm9HAm.js";import{u as t}from"./PU2ffHMr.js";var n=class extends e{get doesExpire(){return this.expires_on>0}constructor(e={}){super(e),e.user&&(this.user=new t(e.user)),e.blocked_by_user&&(this.blocked_by_user=new t(e.blocked_by_user))}};export{n as t};

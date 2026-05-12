@@ -1,0 +1,1 @@
+var e=class{static loaded(e){return new Promise((t,n)=>{let r=window.document.createElement(`img`);r.onload=t,r.onerror=n,r.src=e})}static getResizedDimensions(e,t,n,r){let i=t/e,a,o;if(n&&r)a=Math.min(e,n),o=a*i,o>r&&(o=r,a=o/i);else if(n&&!r)a=Math.min(e,n),o=a*i;else if(!n&&r)o=Math.min(t,r),a=o/i;else throw Error(`Invalid params.`);return{width:a,height:o}}};export{e as t};

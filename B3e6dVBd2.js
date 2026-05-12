@@ -1,0 +1,1 @@
+import{t as e}from"./CihvURmy.js";var t={mounted(e,t){n(e,t.value,t.oldValue)},updated(e,t){n(e,t.value,t.oldValue)}};function n(t,n,r){e().isMobile.value||(n===void 0||n&&n!==r)&&setTimeout(()=>{t.focus()})}export{t};

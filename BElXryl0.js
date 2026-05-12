@@ -1,0 +1,1 @@
+import{n as e}from"./BvdJyXOS.js";var t=new WeakMap,n={beforeMount(n,r){let i=e(n,r);t.set(n,i)},updated(e,n){t.get(e)?.update(n)},unmounted(e){t.get(e)?.destroy(),t.delete(e)}};export{n as t};

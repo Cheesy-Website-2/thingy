@@ -1,0 +1,1 @@
+import{L as e,N as t,c as n,f as r,y as i}from"./DRfnHkI0.js";var a=[`target`,`href`],o=i({__name:`AppLinkExternal`,props:{targetSelf:{type:Boolean},href:{}},setup(i){let o=n(()=>i.targetSelf?`_self`:`_blank`);return(n,s)=>(t(),r(`a`,{rel:`nofollow noopener`,target:o.value,href:i.href},[e(n.$slots,`default`)],8,a))}});export{o as t};

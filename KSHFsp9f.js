@@ -1,0 +1,1 @@
+var e=class{update(e={}){Object.assign(this,e)}get commandString(){return`:${this.prefix}${this.short_name}:`}};export{e as t};

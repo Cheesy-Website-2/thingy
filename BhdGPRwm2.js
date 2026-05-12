@@ -1,0 +1,1 @@
+import{C as e,y as t}from"./DRfnHkI0.js";var n=t({props:{content:{type:String,required:!0}},setup(t){return()=>e(`style`,{innerHTML:t.content})}});export{n as t};

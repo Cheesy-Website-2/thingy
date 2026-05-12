@@ -1,0 +1,1 @@
+var e=new WeakMap,t={mounted(t,n){let r=new ResizeObserver(n.value);r.observe(t),e.set(t,r)},unmounted(t){let n=e.get(t);n&&(n.disconnect(),e.delete(t))}};export{t};
